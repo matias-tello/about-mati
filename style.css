@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: rgb(255, 255, 242);
+    background-color: white;
     
 }
 
@@ -435,17 +435,7 @@ background-color: rgb(123, 163, 238);
 
 
 .persona{
-    height: 1500px;
-    width: 150px;
-    display: flex;
-    justify-content: center;
- 
-    position: absolute;
-    bottom: -47%;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1;
- 
+   display: none;
  
  }
 
