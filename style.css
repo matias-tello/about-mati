@@ -1,0 +1,567 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(255, 255, 242);
+    
+}
+
+#hero{
+    height: 550px;
+    display: flex;
+   width: 100%;
+    flex-direction: column;
+    
+}
+
+.navbar-complete{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    text-shadow: 2px 2px 2px aqua;
+    font-size: 20px;
+    
+}
+
+
+.yo{
+    height: 300px;
+    width: 300px;
+}
+
+
+.presentacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+}
+
+.presentacion h1{
+    color: black;
+    text-shadow: 5px 2px 2px cornflowerblue;
+    font-size:40px;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 27ch;
+    animation: typing 2s steps(12), blink 5s infinite step-end alternate  ;
+    overflow: hidden;
+    margin-left: 5%;
+}
+
+@keyframes typing {
+    from{
+        width: 0;
+    }
+}
+
+
+@keyframes blink {
+    50%{
+        border-color: transparent;
+    }
+}
+
+.presentacion span{
+    font-size: 25px;
+}
+
+
+
+#descripcion h2{
+    font-size: 35px;
+}
+
+.person{
+    display: flex;
+    justify-content: center;
+}
+
+.persona{
+   height: 200px;
+   width: 200px;
+   display: flex;
+   justify-content: center;
+
+   position: absolute;
+   bottom: -35%;
+   left: 50%;
+   transform: translateX(-50%);
+   z-index: 1;
+
+
+}
+
+
+#descripcion{
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+    padding-top: 10%;
+    padding-bottom: 15%;
+    z-index: -1;
+    width: 80%;
+    margin-left: 9%;
+    border: 2px solid grey;
+    box-shadow: 2px 2px 2px grey;
+}
+
+
+#descripcion p{
+    width: 70%;
+    padding: 1%;
+   
+}
+
+
+
+#habilidades{
+    margin-top: 10%;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+ 
+}
+
+#habilidades h2{
+    font-size: 45px;
+    text-shadow: 5px 5px  2px aquamarine;
+    
+}
+
+
+#habilidades img {
+    padding-top: 5%;
+    width: 200px;
+    height: 250px;
+}
+
+
+#habilidades img:hover{
+    transform: scale(1.1);
+    transform: rotate(10deg);
+}
+
+.lenguajes{
+    margin-top: 5%;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+.icon-cod{
+    margin-bottom: 3%;
+}
+
+.cod{
+    height: 100px;
+    width: 100px;
+    border: 1px solid cadetblue;
+    border-radius: 50%;
+    background-color: cornflowerblue;
+}
+
+
+.cod:hover{
+    transform: rotate(360deg);
+    transition: 2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+#proyectos{
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: cornflowerblue;
+    height: 400px;
+    border: 2px solid grey;
+    box-shadow: 2px 2px 2px grey;
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+
+#proyectos h2 {
+font-size: 40px;
+
+}
+
+.cont-proyectos{
+display: flex;
+}
+
+
+.cont-proyectos img{
+    width: 400px;
+    height: 200px;
+    margin-top: 5%;
+    padding-left: 5%;
+    border-radius: 10px;
+}
+
+
+.cont-proyectos img:hover{
+transform: scale(1.1);
+transition: all .5s;
+}
+
+.proyectos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.links-proyectos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin: 5%;
+}
+
+.proyectos svg{
+    width: 25px;
+    height: 25px;
+}
+
+
+#contacto{
+   display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+  
+}
+
+
+#contacto h2{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    text-shadow: 5px 5px 2px aquamarine;
+    margin-bottom: 4%;
+}
+
+
+
+#contacto p{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.btn-linkedin{
+    width: 10%;
+    display: flex;
+    align-items: center;
+   
+    background-color: cornflowerblue;
+    border: 1px solid blue;
+}
+
+.btn-linkedin a{
+    display: flex;
+    align-items: center;
+}
+.cont-form-img{
+    display: flex;
+    justify-content: space-around;
+}
+
+#contacto img{
+    height: 350px;
+    width: 450px;
+    margin-top: 8%;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin-top: 8%;
+}
+
+textarea{
+    resize: none;
+    margin-top: 4%;
+    border: 1px solid aquamarine;
+}
+
+
+input {
+    border: none; 
+    border-bottom: 1px solid cornflowerblue; 
+    margin-top: 3%;
+  }
+
+  #enviar{
+    border: 1px solid blue;
+    background-color: cornflowerblue;
+  }
+
+
+  .linkedin-cv{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+ .btn-cv{
+    width: 10%;
+    background-color: cornflowerblue;
+    border: 1px solid blue;
+    display: flex;
+    
+ }
+
+ .btn-cv a{
+text-shadow: none;
+font-size: 17px;
+ }
+
+ .btn-cv svg {
+width: 20px;
+height: 20px;
+ }
+
+
+ .linkedin-cv button:hover{
+background-color: rgb(123, 163, 238);
+ }
+
+
+.btn-linkedin a{
+    text-shadow: none;
+}
+
+.link-wsp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    margin-bottom: 20px;
+    z-index: 9999;
+}
+
+.svg-wsp {
+    height: 42px;
+    width: 42px;
+    color: white;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.nav-responsive{
+    display: none;
+}
+
+
+
+
+
+
+/*   MEDIA QUERYS   */
+
+
+
+
+
+
+
+
+
+@media(max-width:480px){
+
+.navbar-complete{
+    display: none;
+}
+
+
+.nav-responsive{
+    display: flex;
+}
+
+.yo{
+    height: 250px;
+    width: 250px;
+}
+
+.presentacion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.presentacion h1{
+    font-size: 22px;
+    text-shadow: 2px 2px 2px cornflowerblue;
+    margin-left: 2%;
+}
+
+.presentacion span{
+    font-size: 15px;
+    margin-left: 0%;
+    width: 50%;
+}
+
+
+
+.persona{
+    height: 1500px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+ 
+    position: absolute;
+    bottom: -47%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+ 
+ 
+ }
+
+
+
+
+ #descripcion h2{
+    font-size: 25px;
+ }
+
+
+#habilidades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+ #habilidades h2{
+    font-size: 28px;
+ }
+ 
+
+.lenguajes{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#habilidades img{
+    height: 170px;
+    width: 170px;
+    margin-left: -5%;
+}
+
+
+
+#proyectos{
+    background-color: white;
+    border: none;
+   height: 800px;
+   margin-top: 55%;
+   box-shadow: none;
+}
+
+.cont-proyectos{
+    display: flex;
+    flex-direction: column; 
+    
+}
+
+.proyectos img{
+    width: 80%;
+}
+.proyectos{
+    
+    margin: 5%;
+}
+
+#contacto{
+    margin-top: 35%;
+}
+
+
+#contacto p{
+    width: 80%;
+   
+    
+    margin-left: 7%;
+    background-color: white;
+}
+
+
+.btn-linkedin{
+    width:fit-content;
+   
+}
+
+
+.btn-linkedin a{
+    display: flex;
+    align-items: center;
+}
+
+.btn-cv{
+    width: fit-content;
+}
+
+
+
+
+.cont-form-img{
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+}
+
+.formulario{
+    width: 60%;
+   display: flex;
+   margin-left: 5%;
+   margin-top: 1%;
+   margin-bottom: 50%;
+}
+
+#enviar{
+    margin-bottom: 5%;
+}
+
+
+.link-wsp {
+    position: fixed;
+    margin-bottom: 38%;
+    right: 20px;
+    margin-right: 25%;
+    z-index: 9999;
+  }
+
+
+}
