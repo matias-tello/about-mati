@@ -2,7 +2,7 @@ const formulario = document.getElementById("formulario")
 
 
 formulario.addEventListener('submit', (e)=>{
-e.preventDefault()
+
 
 let nombre = document.getElementById("nombre")
 let apellido = document.getElementById("apellido")
