@@ -10,9 +10,8 @@ body{
 #hero{
     height: 550px;
     display: flex;
-   width: 100%;
+    width: 100%;
     flex-direction: column;
-    
 }
 
 .navbar-complete{
@@ -26,15 +25,12 @@ a{
     color: black;
     text-shadow: 2px 2px 2px aqua;
     font-size: 20px;
-    
 }
-
 
 .yo{
     height: 300px;
     width: 300px;
 }
-
 
 .presentacion{
     display: flex;
@@ -62,7 +58,6 @@ a{
     }
 }
 
-
 @keyframes blink {
     50%{
         border-color: transparent;
@@ -72,8 +67,6 @@ a{
 .presentacion span{
     font-size: 25px;
 }
-
-
 
 #descripcion h2{
     font-size: 35px;
@@ -89,16 +82,12 @@ a{
    width: 200px;
    display: flex;
    justify-content: center;
-
    position: absolute;
    bottom: -35%;
    left: 50%;
    transform: translateX(-50%);
    z-index: 1;
-
-
 }
-
 
 #descripcion{
     margin-top: 15%;
@@ -116,39 +105,29 @@ a{
     box-shadow: 2px 2px 2px grey;
 }
 
-
 #descripcion p{
     width: 70%;
     padding: 1%;
-   
 }
-
-
 
 #habilidades{
     margin-top: 10%;
-
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-
- 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #habilidades h2{
     font-size: 45px;
-    text-shadow: 5px 5px  2px aquamarine;
-    
+    text-shadow: 5px 5px 2px aquamarine;
 }
-
 
 #habilidades img {
     padding-top: 5%;
     width: 200px;
     height: 250px;
 }
-
 
 #habilidades img:hover{
     transform: scale(1.1);
@@ -162,7 +141,6 @@ a{
     justify-content: space-around;
 }
 
-
 .icon-cod{
     margin-bottom: 3%;
 }
@@ -175,21 +153,10 @@ a{
     background-color: cornflowerblue;
 }
 
-
 .cod:hover{
     transform: rotate(360deg);
     transition: 2s;
 }
-
-
-
-
-
-
-
-
-
-
 
 #proyectos{
     margin-top: 15%;
@@ -205,16 +172,13 @@ a{
     margin-left: 2.5%;
 }
 
-
 #proyectos h2 {
-font-size: 40px;
-
+    font-size: 40px;
 }
 
 .cont-proyectos{
-display: flex;
+    display: flex;
 }
-
 
 .cont-proyectos img{
     width: 400px;
@@ -224,10 +188,9 @@ display: flex;
     border-radius: 10px;
 }
 
-
 .cont-proyectos img:hover{
-transform: scale(1.1);
-transition: all .5s;
+    transform: scale(1.1);
+    transition: all .5s;
 }
 
 .proyectos {
@@ -250,14 +213,11 @@ transition: all .5s;
     height: 25px;
 }
 
-
 #contacto{
    display: flex;
     flex-direction: column;
     margin-top: 15%;
-  
 }
-
 
 #contacto h2{
     color: black;
@@ -269,8 +229,6 @@ transition: all .5s;
     margin-bottom: 4%;
 }
 
-
-
 #contacto p{
     color: black;
     display: flex;
@@ -278,12 +236,10 @@ transition: all .5s;
     justify-content: center;
 }
 
-
 .btn-linkedin{
     width: 10%;
     display: flex;
     align-items: center;
-   
     background-color: cornflowerblue;
     border: 1px solid blue;
 }
@@ -292,6 +248,7 @@ transition: all .5s;
     display: flex;
     align-items: center;
 }
+
 .cont-form-img{
     display: flex;
     justify-content: space-around;
@@ -316,48 +273,43 @@ textarea{
     border: 1px solid aquamarine;
 }
 
-
 input {
     border: none; 
     border-bottom: 1px solid cornflowerblue; 
     margin-top: 3%;
-  }
+}
 
-  #enviar{
+#enviar{
     border: 1px solid blue;
     background-color: cornflowerblue;
-  }
+}
 
-
-  .linkedin-cv{
+.linkedin-cv{
     display: flex;
     width: 100%;
     justify-content: space-around;
-  }
+}
 
- .btn-cv{
+.btn-cv{
     width: 10%;
     background-color: cornflowerblue;
     border: 1px solid blue;
     display: flex;
-    
- }
+}
 
- .btn-cv a{
-text-shadow: none;
-font-size: 17px;
- }
+.btn-cv a{
+    text-shadow: none;
+    font-size: 17px;
+}
 
- .btn-cv svg {
-width: 20px;
-height: 20px;
- }
+.btn-cv svg {
+    width: 20px;
+    height: 20px;
+}
 
-
- .linkedin-cv button:hover{
-background-color: rgb(123, 163, 238);
- }
-
+.linkedin-cv button:hover{
+    background-color: rgb(123, 163, 238);
+}
 
 .btn-linkedin a{
     text-shadow: none;
@@ -383,175 +335,162 @@ background-color: rgb(123, 163, 238);
     display: none;
 }
 
-
-
-
-
-
-/*   MEDIA QUERYS   */
-
-
-
-
-
-
-
-
+/* MEDIA QUERYS */
 
 @media(max-width:480px){
 
-.navbar-complete{
-    display: none;
-}
-
-
-.nav-responsive{
-    display: flex;
-}
-
-.yo{
-    height: 250px;
-    width: 250px;
-}
-
-.presentacion{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-.presentacion h1{
-    font-size: 22px;
-    text-shadow: 2px 2px 2px cornflowerblue;
-    margin-left: 2%;
-}
-
-.presentacion span{
-    font-size: 15px;
-    margin-left: 0%;
-    width: 50%;
-}
-
-
-
-.persona{
-   display: none;
- 
- }
+    body{
+        width: fit-content;
+    }
 
 
 
 
- #descripcion h2{
-    font-size: 25px;
- }
+    .navbar-complete{
+        display: none;
+    }
+
+    .nav-responsive{
+        display: flex;
+    }
+
+    .yo{
+        height: 250px;
+        width: 250px;
+    }
+
+    .presentacion{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .presentacion h1{
+        font-size: 22px;
+        text-shadow: 2px 2px 2px cornflowerblue;
+        margin-left: 2%;
+    }
+
+    .presentacion span{
+        font-size: 15px;
+        margin-left: 0%;
+        width: 50%;
+    }
+
+    .persona{
+        display: none;
+    }
+
+    #descripcion h2{
+        font-size: 25px;
+    }
+
+    #habilidades{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #habilidades h2{
+        font-size: 28px;
+    }
+
+    .lenguajes{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #habilidades img{
+        height: 170px;
+        width: 170px;
+        margin-left: -5%;
+    }
+
+    #proyectos{
+        background-color: white;
+        border: none;
+        height: 800px;
+        margin-top: 55%;
+        box-shadow: none;
+    }
+
+    .cont-proyectos{
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .proyectos img{
+        width: 80%;
+    }
+
+    .proyectos{
+        margin: 5%;
+    }
+
+    #contacto{
+        margin-top: 35%;
+    }
+
+    #contacto p{
+        width: 80%;
+        margin-left: 7%;
+        background-color: white;
+    }
+
+    .btn-linkedin a{
+        display: flex;
+        align-items: center;
+    }
 
 
-#habilidades{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
+    .btn-linkedin{
+        width: fit-content;
+        height: 30px;
+        
+    }
 
- #habilidades h2{
-    font-size: 28px;
- }
- 
+    .btn-cv{
+        width: fit-content;
+        height: 30px;  
+      
+    }
 
-.lenguajes{
-    display: flex;
-    flex-wrap: wrap;
-}
+    .btn-cv a{
+        height: 30px;
+        align-items: center;
+    }
 
-#habilidades img{
-    height: 170px;
-    width: 170px;
-    margin-left: -5%;
-}
+    .linkedin-cv{
+       display: flex;
+       
+       height: 100px;
 
+       
+    }
+    .cont-form-img{
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+    }
 
+    .formulario{
+        width: 60%;
+        display: flex;
+        margin-left: 5%;
+        margin-top: 1%;
+        margin-bottom: 50%;
+    }
 
-#proyectos{
-    background-color: white;
-    border: none;
-   height: 800px;
-   margin-top: 55%;
-   box-shadow: none;
-}
+    #enviar{
+        margin-bottom: 5%;
+    }
 
-.cont-proyectos{
-    display: flex;
-    flex-direction: column; 
-    
-}
-
-.proyectos img{
-    width: 80%;
-}
-.proyectos{
-    
-    margin: 5%;
-}
-
-#contacto{
-    margin-top: 35%;
-}
-
-
-#contacto p{
-    width: 80%;
-   
-    
-    margin-left: 7%;
-    background-color: white;
-}
-
-
-.btn-linkedin{
-    width:fit-content;
-   
-}
-
-
-.btn-linkedin a{
-    display: flex;
-    align-items: center;
-}
-
-.btn-cv{
-    width: fit-content;
-}
-
-
-
-
-.cont-form-img{
-    display: flex;
-    flex-direction: column;
-    height: 800px;
-}
-
-.formulario{
-    width: 60%;
-   display: flex;
-   margin-left: 5%;
-   margin-top: 1%;
-   margin-bottom: 50%;
-}
-
-#enviar{
-    margin-bottom: 5%;
-}
-
-
-.link-wsp {
-    position: fixed;
-    margin-bottom: 38%;
-    right: 20px;
-    margin-right: 25%;
-    z-index: 9999;
-  }
-
-
+    .link-wsp {
+        position: fixed;
+        margin-bottom: 38%;
+        right: 20px;
+        margin-right: 25%;
+        z-index: 9999;
+    }
 }
